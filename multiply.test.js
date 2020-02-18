@@ -27,3 +27,8 @@ describe("testing positive numbers", () => {
 // toBe tests for values and is strict equality
 
 // toEqual tests value of an object
+test("object example", () => {
+  const data = { first: 1 };
+  data["second"] = 2;
+  expect(data).toEqual({ first: 1, second: 2 });
+});
