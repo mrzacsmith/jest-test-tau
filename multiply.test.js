@@ -19,6 +19,9 @@ describe("testing positive numbers", () => {
   test("5*-3 toBe -15", () => {
     expect(multiply(5, -3)).toBe(-15);
   });
+  test("-4*-4 toBe 16", () => {
+    expect(multiply(-4, -4)).toBe(16);
+  });
 });
 
 // toBe tests for values and is strict equality
