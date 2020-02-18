@@ -27,6 +27,8 @@ test("null", () => {
   expect(n).toBeFalsy();
 });
 
+// array contains
+
 const carStock = ["BMW", "Mercedes", "Ferrari", "Toyota"];
 
 test("that the car stock listhas a Ferrari", () => {
