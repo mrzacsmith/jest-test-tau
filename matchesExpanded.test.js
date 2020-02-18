@@ -17,7 +17,7 @@ describe("test multiply positive senarios", () => {
   });
 });
 
-// testing truthiness
+// testing truthyness
 test("null", () => {
   const n = null;
   expect(n).toBeNull();
@@ -25,4 +25,10 @@ test("null", () => {
   expect(n).not.toBeUndefined();
   expect(n).not.toBeTruthy();
   expect(n).toBeFalsy();
+});
+
+const carStock = ["BMW", "Mercedes", "Ferrari", "Toyota"];
+
+test("that the car stock listhas a Ferrari", () => {
+  expect(carStock).toContain("Ferrari");
 });
